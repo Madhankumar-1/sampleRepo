@@ -53,6 +53,6 @@ const app = new cdk.App();
 new SampleStack(app, "SampleStack", {
      env: {
           region: "ap-southeast-2,
-          account: "199302260568",
+          account: 199302260568,
      },
 });
