@@ -1,2 +1,2 @@
 cd deployment
-npm run start
+sudo npm run start
