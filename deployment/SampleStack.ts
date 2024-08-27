@@ -52,7 +52,7 @@ import * as cdk from "aws-cdk-lib";
 const app = new cdk.App();
 new SampleStack(app, "SampleStack", {
      env: {
-          region: process.env.CDK_DEFAULT_REGION,
-          account: process.env.CDK_DEFAULT_ACCOUNT,
+          region: "ap-southeast-2,
+          account: "199302260568",
      },
 });
